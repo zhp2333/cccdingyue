@@ -1,0 +1,2265 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+allow-lan: true
+mode: Rule
+log-level: silent
+external-controller: 127.0.0.1:9090
+experimental:
+  ignore-resolve-fail: true
+secret: ""
+proxies:
+  - name: "最新网址: fastlink.cc"
+    type: ss
+    server: 25c507ef.flbgpi-hk.p2tib8n.com
+    port: 57601
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: "剩余流量: 61.33GB"
+    type: ss
+    server: 25c507ef.flbgpi-hk.p2tib8n.com
+    port: 57601
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: "过期时间: 2025-06-07 23:48:57"
+    type: ss
+    server: 25c507ef.flbgpi-hk.p2tib8n.com
+    port: 57601
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|香港01|2x
+    type: ss
+    server: 25c507ef.flbgpi-hk.p2tib8n.com
+    port: 57601
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|香港02|2x
+    type: ss
+    server: 25c507ef.flbgpi-hk.p2tib8n.com
+    port: 57602
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|香港03|2x
+    type: ss
+    server: 25c507ef.flbgpi-hk.p2tib8n.com
+    port: 57603
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|香港04|2x
+    type: ss
+    server: 25c507ef.flbgpi-hk.p2tib8n.com
+    port: 57604
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|香港05|2x
+    type: ss
+    server: 25c507ef.flbgpi-hk.p2tib8n.com
+    port: 57605
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|香港01(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-hk.p2tib8n.com
+    port: 57611
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|香港02(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-hk.p2tib8n.com
+    port: 57612
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|香港03(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-hk.p2tib8n.com
+    port: 57613
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|香港04(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-hk.p2tib8n.com
+    port: 57614
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|香港05(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-hk.p2tib8n.com
+    port: 57615
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|新加坡01(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-sg.p2tib8n.com
+    port: 57621
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|新加坡02(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-sg.p2tib8n.com
+    port: 57622
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|新加坡03(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-sg.p2tib8n.com
+    port: 57623
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|新加坡04(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-sg.p2tib8n.com
+    port: 57624
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|新加坡05(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-sg.p2tib8n.com
+    port: 57625
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|台湾01(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-tw.p2tib8n.com
+    port: 57631
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|台湾02(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-tw.p2tib8n.com
+    port: 57632
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|台湾03(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-tw.p2tib8n.com
+    port: 57633
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|台湾04(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-tw.p2tib8n.com
+    port: 57634
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|台湾05(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-tw.p2tib8n.com
+    port: 57635
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|台湾06(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-tw.p2tib8n.com
+    port: 57636
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|台湾07(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-tw.p2tib8n.com
+    port: 57637
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|台湾08(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-tw.p2tib8n.com
+    port: 57638
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|台湾09(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-tw.p2tib8n.com
+    port: 57639
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|台湾10(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-tw.p2tib8n.com
+    port: 57640
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|日本01(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-jp.p2tib8n.com
+    port: 57641
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|日本02(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-jp.p2tib8n.com
+    port: 57642
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|日本03(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-jp.p2tib8n.com
+    port: 57643
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|日本04(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-jp.p2tib8n.com
+    port: 57644
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|日本05(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-jp.p2tib8n.com
+    port: 57645
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|美国01(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-us.p2tib8n.com
+    port: 57651
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|美国02(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-us.p2tib8n.com
+    port: 57652
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|美国03(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-us.p2tib8n.com
+    port: 57653
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|美国04(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-us.p2tib8n.com
+    port: 57654
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: 动态BGP+IPLC|美国05(原生)|2x
+    type: ss
+    server: 25c507ef.flbgpi-us.p2tib8n.com
+    port: 57655
+    cipher: chacha20-ietf-poly1305
+    password: BD9WxZ
+    udp: true
+  - name: iplc|广港01|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-hk.getxlx.com
+    port: 59911
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广港02|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-hk.getxlx.com
+    port: 59912
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广港03|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-hk.getxlx.com
+    port: 59913
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广港04|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-hk.getxlx.com
+    port: 59914
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广港05|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-hk.getxlx.com
+    port: 59915
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广港-原生01|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-hk.getxlx.com
+    port: 59921
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广港-原生02|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-hk.getxlx.com
+    port: 59922
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广港-原生03|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-hk.getxlx.com
+    port: 59923
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广港-原生04|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-hk.getxlx.com
+    port: 59924
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广港-原生05|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-hk.getxlx.com
+    port: 59925
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广新01|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-sg.getxlx.com
+    port: 59931
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广新02|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-sg.getxlx.com
+    port: 59932
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广新-原生01|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-sg.getxlx.com
+    port: 59933
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广新-原生02|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-sg.getxlx.com
+    port: 59934
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广新-原生03|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-sg.getxlx.com
+    port: 59935
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广台-原生01|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-tw.getxlx.com
+    port: 59941
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广台-原生02|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-tw.getxlx.com
+    port: 59942
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广台-原生03|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-tw.getxlx.com
+    port: 59943
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广台-原生04|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-tw.getxlx.com
+    port: 59944
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广台-原生05|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-tw.getxlx.com
+    port: 59945
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广台-原生06|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-tw.getxlx.com
+    port: 59946
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广台-原生07|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-tw.getxlx.com
+    port: 59947
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广台-原生08|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-tw.getxlx.com
+    port: 59948
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广台-原生09|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-tw.getxlx.com
+    port: 59949
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广台-原生10|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-tw.getxlx.com
+    port: 59950
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广日01|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-jp.getxlx.com
+    port: 59951
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广日02|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-jp.getxlx.com
+    port: 59952
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广日-原生01|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-jp.getxlx.com
+    port: 59956
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广日-原生02|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-jp.getxlx.com
+    port: 59957
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广日-原生03|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-jp.getxlx.com
+    port: 59958
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广日-原生04|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-jp.getxlx.com
+    port: 59959
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广日-原生05|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-jp.getxlx.com
+    port: 59960
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广美-原生01|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-us.getxlx.com
+    port: 59971
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广美-原生02|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-us.getxlx.com
+    port: 59972
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广美-原生03|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-us.getxlx.com
+    port: 59973
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广美-原生04|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-us.getxlx.com
+    port: 59974
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: iplc|广美-原生05|1.5x
+    type: vmess
+    server: 25c507ef.afliplc-us.getxlx.com
+    port: 59975
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|香港01
+    type: vmess
+    server: 25c507ef.aflzz-hk.p2tib8n.com
+    port: 42101
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|香港02
+    type: vmess
+    server: 25c507ef.aflzz-hk.p2tib8n.com
+    port: 42102
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|香港03
+    type: vmess
+    server: 25c507ef.aflzz-hk.p2tib8n.com
+    port: 42103
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|香港04
+    type: vmess
+    server: 25c507ef.aflzz-hk.p2tib8n.com
+    port: 42104
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|香港05
+    type: vmess
+    server: 25c507ef.aflzz-hk.p2tib8n.com
+    port: 42105
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|香港-原生01
+    type: vmess
+    server: 25c507ef.aflzz-hk.p2tib8n.com
+    port: 42111
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|香港-原生02
+    type: vmess
+    server: 25c507ef.aflzz-hk.p2tib8n.com
+    port: 42112
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|香港-原生03
+    type: vmess
+    server: 25c507ef.aflzz-hk.p2tib8n.com
+    port: 42113
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|香港-原生04
+    type: vmess
+    server: 25c507ef.aflzz-hk.p2tib8n.com
+    port: 42114
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|香港-原生05
+    type: vmess
+    server: 25c507ef.aflzz-hk.p2tib8n.com
+    port: 42115
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|台湾-原生01
+    type: vmess
+    server: 25c507ef.aflzz-tw.p2tib8n.com
+    port: 42121
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|台湾-原生02
+    type: vmess
+    server: 25c507ef.aflzz-tw.p2tib8n.com
+    port: 42122
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|台湾-原生03
+    type: vmess
+    server: 25c507ef.aflzz-tw.p2tib8n.com
+    port: 42123
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|台湾-原生04
+    type: vmess
+    server: 25c507ef.aflzz-tw.p2tib8n.com
+    port: 42124
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|台湾-原生05
+    type: vmess
+    server: 25c507ef.aflzz-tw.p2tib8n.com
+    port: 42125
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|台湾-原生06
+    type: vmess
+    server: 25c507ef.aflzz-tw.p2tib8n.com
+    port: 42126
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|台湾-原生07
+    type: vmess
+    server: 25c507ef.aflzz-tw.p2tib8n.com
+    port: 42127
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|台湾-原生08
+    type: vmess
+    server: 25c507ef.aflzz-tw.p2tib8n.com
+    port: 42128
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|台湾-原生09
+    type: vmess
+    server: 25c507ef.aflzz-tw.p2tib8n.com
+    port: 42129
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|台湾-原生10
+    type: vmess
+    server: 25c507ef.aflzz-tw.p2tib8n.com
+    port: 42130
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|新加坡01
+    type: vmess
+    server: 25c507ef.aflzz-sg.p2tib8n.com
+    port: 42131
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|新加坡02
+    type: vmess
+    server: 25c507ef.aflzz-sg.p2tib8n.com
+    port: 42132
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|新加坡03
+    type: vmess
+    server: 25c507ef.aflzz-sg.p2tib8n.com
+    port: 42133
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|日本01
+    type: vmess
+    server: 25c507ef.aflzz-jp.p2tib8n.com
+    port: 42141
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|日本02
+    type: vmess
+    server: 25c507ef.aflzz-jp.p2tib8n.com
+    port: 42142
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|日本03
+    type: vmess
+    server: 25c507ef.aflzz-jp.p2tib8n.com
+    port: 42143
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|日本04
+    type: vmess
+    server: 25c507ef.aflzz-jp.p2tib8n.com
+    port: 42144
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|日本05
+    type: vmess
+    server: 25c507ef.aflzz-jp.p2tib8n.com
+    port: 42145
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|韩国01
+    type: vmess
+    server: 25c507ef.aflzz-kr.p2tib8n.com
+    port: 42151
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|韩国02
+    type: vmess
+    server: 25c507ef.aflzz-kr.p2tib8n.com
+    port: 42152
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|韩国03
+    type: vmess
+    server: 25c507ef.aflzz-kr.p2tib8n.com
+    port: 42153
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|美国01
+    type: vmess
+    server: 25c507ef.aflzz-us.p2tib8n.com
+    port: 42161
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|美国02
+    type: vmess
+    server: 25c507ef.aflzz-us.p2tib8n.com
+    port: 42162
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|美国03
+    type: vmess
+    server: 25c507ef.aflzz-us.p2tib8n.com
+    port: 42163
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|美国04
+    type: vmess
+    server: 25c507ef.aflzz-us.p2tib8n.com
+    port: 42164
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|美国05
+    type: vmess
+    server: 25c507ef.aflzz-us.p2tib8n.com
+    port: 42165
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: 中转|加拿大01
+    type: vmess
+    server: 25c507ef.aflzz-us.p2tib8n.com
+    port: 42171
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: Anycast|香港
+    type: vmess
+    server: 25c507ef.aflcn.p2tib8n.com
+    port: 51517
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: 25c507ef.aflcn.p2tib8n.com
+    ws-path: /564dfa20/
+    ws-headers:
+      Host: 25c507ef.aflcn.p2tib8n.com
+  - name: Anycast|新加坡
+    type: vmess
+    server: 25c507ef.aflcn.p2tib8n.com
+    port: 51511
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: 25c507ef.aflcn.p2tib8n.com
+    ws-path: /564dfa20/
+    ws-headers:
+      Host: 25c507ef.aflcn.p2tib8n.com
+  - name: Anycast|日本
+    type: vmess
+    server: 25c507ef.aflcn.p2tib8n.com
+    port: 51512
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: 25c507ef.aflcn.p2tib8n.com
+    ws-path: /564dfa20/
+    ws-headers:
+      Host: 25c507ef.aflcn.p2tib8n.com
+  - name: Anycast|台湾
+    type: vmess
+    server: 25c507ef.aflcn.p2tib8n.com
+    port: 51514
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: 25c507ef.aflcn.p2tib8n.com
+    ws-path: /564dfa20/
+    ws-headers:
+      Host: 25c507ef.aflcn.p2tib8n.com
+  - name: Anycast|泰国
+    type: vmess
+    server: 25c507ef.aflcn.p2tib8n.com
+    port: 51527
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: 25c507ef.aflcn.p2tib8n.com
+    ws-path: /564dfa20/
+    ws-headers:
+      Host: 25c507ef.aflcn.p2tib8n.com
+  - name: Anycast|美国
+    type: vmess
+    server: 25c507ef.aflcn.p2tib8n.com
+    port: 51513
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: 25c507ef.aflcn.p2tib8n.com
+    ws-path: /564dfa20/
+    ws-headers:
+      Host: 25c507ef.aflcn.p2tib8n.com
+  - name: Anycast|英国
+    type: vmess
+    server: 25c507ef.aflcn.p2tib8n.com
+    port: 51518
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: 25c507ef.aflcn.p2tib8n.com
+    ws-path: /564dfa20/
+    ws-headers:
+      Host: 25c507ef.aflcn.p2tib8n.com
+  - name: Anycast|德国
+    type: vmess
+    server: 25c507ef.aflcn.p2tib8n.com
+    port: 51519
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: 25c507ef.aflcn.p2tib8n.com
+    ws-path: /564dfa20/
+    ws-headers:
+      Host: 25c507ef.aflcn.p2tib8n.com
+  - name: Anycast|加拿大
+    type: vmess
+    server: 25c507ef.aflcn.p2tib8n.com
+    port: 51520
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: 25c507ef.aflcn.p2tib8n.com
+    ws-path: /564dfa20/
+    ws-headers:
+      Host: 25c507ef.aflcn.p2tib8n.com
+  - name: Anycast|韩国
+    type: vmess
+    server: 25c507ef.aflcn.p2tib8n.com
+    port: 51522
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: 25c507ef.aflcn.p2tib8n.com
+    ws-path: /564dfa20/
+    ws-headers:
+      Host: 25c507ef.aflcn.p2tib8n.com
+  - name: Anycast|俄罗斯
+    type: vmess
+    server: 25c507ef.aflcn.p2tib8n.com
+    port: 51525
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: 25c507ef.aflcn.p2tib8n.com
+    ws-path: /564dfa20/
+    ws-headers:
+      Host: 25c507ef.aflcn.p2tib8n.com
+  - name: Anycast|马来西亚
+    type: vmess
+    server: 25c507ef.aflcn.p2tib8n.com
+    port: 51523
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: 25c507ef.aflcn.p2tib8n.com
+    ws-path: /564dfa20/
+    ws-headers:
+      Host: 25c507ef.aflcn.p2tib8n.com
+  - name: Anycast|印度
+    type: vmess
+    server: 25c507ef.aflcn.p2tib8n.com
+    port: 51524
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: 25c507ef.aflcn.p2tib8n.com
+    ws-path: /564dfa20/
+    ws-headers:
+      Host: 25c507ef.aflcn.p2tib8n.com
+  - name: Anycast|法国
+    type: vmess
+    server: 25c507ef.aflcn.p2tib8n.com
+    port: 51526
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: 25c507ef.aflcn.p2tib8n.com
+    ws-path: /564dfa20/
+    ws-headers:
+      Host: 25c507ef.aflcn.p2tib8n.com
+  - name: Anycast|阿根廷
+    type: vmess
+    server: 25c507ef.aflcn.p2tib8n.com
+    port: 51529
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: 25c507ef.aflcn.p2tib8n.com
+    ws-path: /564dfa20/
+    ws-headers:
+      Host: 25c507ef.aflcn.p2tib8n.com
+  - name: Anycast|巴西
+    type: vmess
+    server: 25c507ef.aflcn.p2tib8n.com
+    port: 51530
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: 25c507ef.aflcn.p2tib8n.com
+    ws-path: /564dfa20/
+    ws-headers:
+      Host: 25c507ef.aflcn.p2tib8n.com
+  - name: Anycast|土耳其
+    type: vmess
+    server: 25c507ef.aflcn.p2tib8n.com
+    port: 51531
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: 25c507ef.aflcn.p2tib8n.com
+    ws-path: /564dfa20/
+    ws-headers:
+      Host: 25c507ef.aflcn.p2tib8n.com
+  - name: Anycast|澳大利亚
+    type: vmess
+    server: 25c507ef.aflcn.p2tib8n.com
+    port: 51521
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: 25c507ef.aflcn.p2tib8n.com
+    ws-path: /564dfa20/
+    ws-headers:
+      Host: 25c507ef.aflcn.p2tib8n.com
+  - name: 福利|新加坡|0.1x|限速10Mbps
+    type: vmess
+    server: 25c507ef.aflzzul.p2tib8n.com
+    port: 51515
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: 25c507ef.aflzzul.p2tib8n.com
+    ws-path: /564dfa20/
+    ws-headers:
+      Host: 25c507ef.aflzzul.p2tib8n.com
+  - name: 福利|香港01|0.1x|限速10Mbps
+    type: vmess
+    server: 25c507ef.aflzzul.p2tib8n.com
+    port: 52511
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: 25c507ef.aflzzul.p2tib8n.com
+    ws-path: /564dfa20/
+    ws-headers:
+      Host: 25c507ef.aflzzul.p2tib8n.com
+  - name: 福利|日本|0.1x|限速10Mbps
+    type: vmess
+    server: 25c507ef.aflzzul.p2tib8n.com
+    port: 52512
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: 25c507ef.aflzzul.p2tib8n.com
+    ws-path: /564dfa20/
+    ws-headers:
+      Host: 25c507ef.aflzzul.p2tib8n.com
+  - name: 福利|美国|0.1x|限速10Mbps
+    type: vmess
+    server: 25c507ef.aflzzul.p2tib8n.com
+    port: 52513
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: 25c507ef.aflzzul.p2tib8n.com
+    ws-path: /564dfa20/
+    ws-headers:
+      Host: 25c507ef.aflzzul.p2tib8n.com
+  - name: 下载专用|0.8x|支持大流量
+    type: vmess
+    server: 25c507ef.aflzzul.p2tib8n.com
+    port: 51516
+    uuid: ec9c860f-ebaf-3ebb-af66-18eb36486d1f
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /564dfa20/
+      headers:
+        Host: 25c507ef.aflzzul.p2tib8n.com
+    ws-path: /564dfa20/
+    ws-headers:
+      Host: 25c507ef.aflzzul.p2tib8n.com
+proxy-groups:
+  - name: PROXY 
+    type: select
+    proxies:
+      - "最新网址: fastlink.cc"
+      - "剩余流量: 61.33GB"
+      - "过期时间: 2025-06-07 23:48:57"
+      - 动态BGP+IPLC|香港01|2x
+      - 动态BGP+IPLC|香港02|2x
+      - 动态BGP+IPLC|香港03|2x
+      - 动态BGP+IPLC|香港04|2x
+      - 动态BGP+IPLC|香港05|2x
+      - 动态BGP+IPLC|香港01(原生)|2x
+      - 动态BGP+IPLC|香港02(原生)|2x
+      - 动态BGP+IPLC|香港03(原生)|2x
+      - 动态BGP+IPLC|香港04(原生)|2x
+      - 动态BGP+IPLC|香港05(原生)|2x
+      - 动态BGP+IPLC|新加坡01(原生)|2x
+      - 动态BGP+IPLC|新加坡02(原生)|2x
+      - 动态BGP+IPLC|新加坡03(原生)|2x
+      - 动态BGP+IPLC|新加坡04(原生)|2x
+      - 动态BGP+IPLC|新加坡05(原生)|2x
+      - 动态BGP+IPLC|台湾01(原生)|2x
+      - 动态BGP+IPLC|台湾02(原生)|2x
+      - 动态BGP+IPLC|台湾03(原生)|2x
+      - 动态BGP+IPLC|台湾04(原生)|2x
+      - 动态BGP+IPLC|台湾05(原生)|2x
+      - 动态BGP+IPLC|台湾06(原生)|2x
+      - 动态BGP+IPLC|台湾07(原生)|2x
+      - 动态BGP+IPLC|台湾08(原生)|2x
+      - 动态BGP+IPLC|台湾09(原生)|2x
+      - 动态BGP+IPLC|台湾10(原生)|2x
+      - 动态BGP+IPLC|日本01(原生)|2x
+      - 动态BGP+IPLC|日本02(原生)|2x
+      - 动态BGP+IPLC|日本03(原生)|2x
+      - 动态BGP+IPLC|日本04(原生)|2x
+      - 动态BGP+IPLC|日本05(原生)|2x
+      - 动态BGP+IPLC|美国01(原生)|2x
+      - 动态BGP+IPLC|美国02(原生)|2x
+      - 动态BGP+IPLC|美国03(原生)|2x
+      - 动态BGP+IPLC|美国04(原生)|2x
+      - 动态BGP+IPLC|美国05(原生)|2x
+      - iplc|广港01|1.5x
+      - iplc|广港02|1.5x
+      - iplc|广港03|1.5x
+      - iplc|广港04|1.5x
+      - iplc|广港05|1.5x
+      - iplc|广港-原生01|1.5x
+      - iplc|广港-原生02|1.5x
+      - iplc|广港-原生03|1.5x
+      - iplc|广港-原生04|1.5x
+      - iplc|广港-原生05|1.5x
+      - iplc|广新01|1.5x
+      - iplc|广新02|1.5x
+      - iplc|广新-原生01|1.5x
+      - iplc|广新-原生02|1.5x
+      - iplc|广新-原生03|1.5x
+      - iplc|广台-原生01|1.5x
+      - iplc|广台-原生02|1.5x
+      - iplc|广台-原生03|1.5x
+      - iplc|广台-原生04|1.5x
+      - iplc|广台-原生05|1.5x
+      - iplc|广台-原生06|1.5x
+      - iplc|广台-原生07|1.5x
+      - iplc|广台-原生08|1.5x
+      - iplc|广台-原生09|1.5x
+      - iplc|广台-原生10|1.5x
+      - iplc|广日01|1.5x
+      - iplc|广日02|1.5x
+      - iplc|广日-原生01|1.5x
+      - iplc|广日-原生02|1.5x
+      - iplc|广日-原生03|1.5x
+      - iplc|广日-原生04|1.5x
+      - iplc|广日-原生05|1.5x
+      - iplc|广美-原生01|1.5x
+      - iplc|广美-原生02|1.5x
+      - iplc|广美-原生03|1.5x
+      - iplc|广美-原生04|1.5x
+      - iplc|广美-原生05|1.5x
+      - 中转|香港01
+      - 中转|香港02
+      - 中转|香港03
+      - 中转|香港04
+      - 中转|香港05
+      - 中转|香港-原生01
+      - 中转|香港-原生02
+      - 中转|香港-原生03
+      - 中转|香港-原生04
+      - 中转|香港-原生05
+      - 中转|台湾-原生01
+      - 中转|台湾-原生02
+      - 中转|台湾-原生03
+      - 中转|台湾-原生04
+      - 中转|台湾-原生05
+      - 中转|台湾-原生06
+      - 中转|台湾-原生07
+      - 中转|台湾-原生08
+      - 中转|台湾-原生09
+      - 中转|台湾-原生10
+      - 中转|新加坡01
+      - 中转|新加坡02
+      - 中转|新加坡03
+      - 中转|日本01
+      - 中转|日本02
+      - 中转|日本03
+      - 中转|日本04
+      - 中转|日本05
+      - 中转|韩国01
+      - 中转|韩国02
+      - 中转|韩国03
+      - 中转|美国01
+      - 中转|美国02
+      - 中转|美国03
+      - 中转|美国04
+      - 中转|美国05
+      - 中转|加拿大01
+      - Anycast|香港
+      - Anycast|新加坡
+      - Anycast|日本
+      - Anycast|台湾
+      - Anycast|泰国
+      - Anycast|美国
+      - Anycast|英国
+      - Anycast|德国
+      - Anycast|加拿大
+      - Anycast|韩国
+      - Anycast|俄罗斯
+      - Anycast|马来西亚
+      - Anycast|印度
+      - Anycast|法国
+      - Anycast|阿根廷
+      - Anycast|巴西
+      - Anycast|土耳其
+      - Anycast|澳大利亚
+      - 福利|新加坡|0.1x|限速10Mbps
+      - 福利|香港01|0.1x|限速10Mbps
+      - 福利|日本|0.1x|限速10Mbps
+      - 福利|美国|0.1x|限速10Mbps
+      - 下载专用|0.8x|支持大流量
+  - name: 🔰 节点选择
+    type: select
+    proxies:
+      - 🚀 手动切换
+      - 🔯 故障转移
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - IPLC负载组
+      - 台湾负载组
+      - 香港负载组
+      - 新加坡负载组
+      - DIRECT
+  - name: 🚀 手动切换
+    type: select
+    proxies:
+      - "最新网址: fastlink.cc"
+      - "剩余流量: 61.33GB"
+      - "过期时间: 2025-06-07 23:48:57"
+      - 动态BGP+IPLC|香港01|2x
+      - 动态BGP+IPLC|香港02|2x
+      - 动态BGP+IPLC|香港03|2x
+      - 动态BGP+IPLC|香港04|2x
+      - 动态BGP+IPLC|香港05|2x
+      - 动态BGP+IPLC|香港01(原生)|2x
+      - 动态BGP+IPLC|香港02(原生)|2x
+      - 动态BGP+IPLC|香港03(原生)|2x
+      - 动态BGP+IPLC|香港04(原生)|2x
+      - 动态BGP+IPLC|香港05(原生)|2x
+      - 动态BGP+IPLC|新加坡01(原生)|2x
+      - 动态BGP+IPLC|新加坡02(原生)|2x
+      - 动态BGP+IPLC|新加坡03(原生)|2x
+      - 动态BGP+IPLC|新加坡04(原生)|2x
+      - 动态BGP+IPLC|新加坡05(原生)|2x
+      - 动态BGP+IPLC|台湾01(原生)|2x
+      - 动态BGP+IPLC|台湾02(原生)|2x
+      - 动态BGP+IPLC|台湾03(原生)|2x
+      - 动态BGP+IPLC|台湾04(原生)|2x
+      - 动态BGP+IPLC|台湾05(原生)|2x
+      - 动态BGP+IPLC|台湾06(原生)|2x
+      - 动态BGP+IPLC|台湾07(原生)|2x
+      - 动态BGP+IPLC|台湾08(原生)|2x
+      - 动态BGP+IPLC|台湾09(原生)|2x
+      - 动态BGP+IPLC|台湾10(原生)|2x
+      - 动态BGP+IPLC|日本01(原生)|2x
+      - 动态BGP+IPLC|日本02(原生)|2x
+      - 动态BGP+IPLC|日本03(原生)|2x
+      - 动态BGP+IPLC|日本04(原生)|2x
+      - 动态BGP+IPLC|日本05(原生)|2x
+      - 动态BGP+IPLC|美国01(原生)|2x
+      - 动态BGP+IPLC|美国02(原生)|2x
+      - 动态BGP+IPLC|美国03(原生)|2x
+      - 动态BGP+IPLC|美国04(原生)|2x
+      - 动态BGP+IPLC|美国05(原生)|2x
+      - iplc|广港01|1.5x
+      - iplc|广港02|1.5x
+      - iplc|广港03|1.5x
+      - iplc|广港04|1.5x
+      - iplc|广港05|1.5x
+      - iplc|广港-原生01|1.5x
+      - iplc|广港-原生02|1.5x
+      - iplc|广港-原生03|1.5x
+      - iplc|广港-原生04|1.5x
+      - iplc|广港-原生05|1.5x
+      - iplc|广新01|1.5x
+      - iplc|广新02|1.5x
+      - iplc|广新-原生01|1.5x
+      - iplc|广新-原生02|1.5x
+      - iplc|广新-原生03|1.5x
+      - iplc|广台-原生01|1.5x
+      - iplc|广台-原生02|1.5x
+      - iplc|广台-原生03|1.5x
+      - iplc|广台-原生04|1.5x
+      - iplc|广台-原生05|1.5x
+      - iplc|广台-原生06|1.5x
+      - iplc|广台-原生07|1.5x
+      - iplc|广台-原生08|1.5x
+      - iplc|广台-原生09|1.5x
+      - iplc|广台-原生10|1.5x
+      - iplc|广日01|1.5x
+      - iplc|广日02|1.5x
+      - iplc|广日-原生01|1.5x
+      - iplc|广日-原生02|1.5x
+      - iplc|广日-原生03|1.5x
+      - iplc|广日-原生04|1.5x
+      - iplc|广日-原生05|1.5x
+      - iplc|广美-原生01|1.5x
+      - iplc|广美-原生02|1.5x
+      - iplc|广美-原生03|1.5x
+      - iplc|广美-原生04|1.5x
+      - iplc|广美-原生05|1.5x
+      - 中转|香港01
+      - 中转|香港02
+      - 中转|香港03
+      - 中转|香港04
+      - 中转|香港05
+      - 中转|香港-原生01
+      - 中转|香港-原生02
+      - 中转|香港-原生03
+      - 中转|香港-原生04
+      - 中转|香港-原生05
+      - 中转|台湾-原生01
+      - 中转|台湾-原生02
+      - 中转|台湾-原生03
+      - 中转|台湾-原生04
+      - 中转|台湾-原生05
+      - 中转|台湾-原生06
+      - 中转|台湾-原生07
+      - 中转|台湾-原生08
+      - 中转|台湾-原生09
+      - 中转|台湾-原生10
+      - 中转|新加坡01
+      - 中转|新加坡02
+      - 中转|新加坡03
+      - 中转|日本01
+      - 中转|日本02
+      - 中转|日本03
+      - 中转|日本04
+      - 中转|日本05
+      - 中转|韩国01
+      - 中转|韩国02
+      - 中转|韩国03
+      - 中转|美国01
+      - 中转|美国02
+      - 中转|美国03
+      - 中转|美国04
+      - 中转|美国05
+      - 中转|加拿大01
+      - Anycast|香港
+      - Anycast|新加坡
+      - Anycast|日本
+      - Anycast|台湾
+      - Anycast|泰国
+      - Anycast|美国
+      - Anycast|英国
+      - Anycast|德国
+      - Anycast|加拿大
+      - Anycast|韩国
+      - Anycast|俄罗斯
+      - Anycast|马来西亚
+      - Anycast|印度
+      - Anycast|法国
+      - Anycast|阿根廷
+      - Anycast|巴西
+      - Anycast|土耳其
+      - Anycast|澳大利亚
+      - 福利|新加坡|0.1x|限速10Mbps
+      - 福利|香港01|0.1x|限速10Mbps
+      - 福利|日本|0.1x|限速10Mbps
+      - 福利|美国|0.1x|限速10Mbps
+      - 下载专用|0.8x|支持大流量
+  - name: 🔯 故障转移
+    type: fallback
+    proxies:
+      - 中转|香港01
+      - 中转|香港02
+      - 中转|香港03
+      - 中转|香港04
+      - 中转|香港05
+      - 中转|香港-原生01
+      - 中转|香港-原生02
+      - 中转|香港-原生03
+      - 中转|香港-原生04
+      - 中转|香港-原生05
+      - 中转|台湾-原生01
+      - 中转|台湾-原生02
+      - 中转|台湾-原生03
+      - 中转|台湾-原生04
+      - 中转|台湾-原生05
+      - 中转|台湾-原生06
+      - 中转|台湾-原生07
+      - 中转|台湾-原生08
+      - 中转|台湾-原生09
+      - 中转|台湾-原生10
+      - 中转|新加坡01
+      - 中转|新加坡02
+      - 中转|新加坡03
+      - 中转|日本01
+      - 中转|日本02
+      - 中转|日本03
+      - 中转|日本04
+      - 中转|日本05
+      - 中转|韩国01
+      - 中转|韩国02
+      - 中转|韩国03
+      - 中转|美国01
+      - 中转|美国02
+      - 中转|美国03
+      - 中转|美国04
+      - 中转|美国05
+      - 中转|加拿大01
+      - Anycast|香港
+      - Anycast|新加坡
+      - Anycast|日本
+      - Anycast|台湾
+      - Anycast|泰国
+      - Anycast|美国
+      - Anycast|英国
+      - Anycast|德国
+      - Anycast|加拿大
+      - Anycast|韩国
+      - Anycast|俄罗斯
+      - Anycast|马来西亚
+      - Anycast|印度
+      - Anycast|法国
+      - Anycast|阿根廷
+      - Anycast|巴西
+      - Anycast|土耳其
+      - Anycast|澳大利亚
+      - 下载专用|0.8x|支持大流量
+    url: http://www.gstatic.com/generate_204
+    interval: 180
+  - name: ChatGPT
+    type: select
+    proxies:
+      - 🇺🇲 美国节点
+      - 🔰 节点选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - IPLC负载组
+      - 台湾负载组
+      - 香港负载组
+      - 新加坡负载组
+      - 🇬🇧 英国节点
+      - DIRECT
+  - name: Youtube
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - IPLC负载组
+      - 台湾负载组
+      - 香港负载组
+      - 新加坡负载组
+      - 🇬🇧 英国节点
+      - DIRECT
+  - name: Apple
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - IPLC负载组
+      - 台湾负载组
+      - 香港负载组
+      - 新加坡负载组
+      - 🇬🇧 英国节点
+      - DIRECT
+  - name: 📺 巴哈姆特
+    type: select
+    proxies:
+      - 🇨🇳 台湾节点
+      - 🔰 节点选择
+      - IPLC负载组
+      - 🚀 手动切换
+      - DIRECT
+  - name: 📺 哔哩哔哩
+    type: select
+    proxies:
+      - DIRECT
+      - 🔰 节点选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - IPLC负载组
+      - 台湾负载组
+      - 香港负载组
+      - 新加坡负载组
+      - 🇬🇧 英国节点
+  - name: 🎵 网易云音乐
+    type: select
+    proxies:
+      - DIRECT
+  - name: Ⓜ️ 微软云盘
+    type: select
+    proxies:
+      - DIRECT
+      - 🔰 节点选择
+      - IPLC负载组
+      - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🚀 手动切换
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🔰 节点选择
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🆎 AdBlock
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+      - 🔰 节点选择
+      - IPLC负载组
+      - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🚀 手动切换
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🔰 节点选择
+      - IPLC负载组
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
+      - 🇯🇵 日本节点
+      - 🇺🇲 美国节点
+      - 🚀 手动切换
+      - DIRECT
+  - name: 🇭🇰 香港节点
+    type: select
+    proxies:
+      - 动态BGP+IPLC|香港01|2x
+      - 动态BGP+IPLC|香港02|2x
+      - 动态BGP+IPLC|香港03|2x
+      - 动态BGP+IPLC|香港04|2x
+      - 动态BGP+IPLC|香港05|2x
+      - 动态BGP+IPLC|香港01(原生)|2x
+      - 动态BGP+IPLC|香港02(原生)|2x
+      - 动态BGP+IPLC|香港03(原生)|2x
+      - 动态BGP+IPLC|香港04(原生)|2x
+      - 动态BGP+IPLC|香港05(原生)|2x
+      - iplc|广港01|1.5x
+      - iplc|广港02|1.5x
+      - iplc|广港03|1.5x
+      - iplc|广港04|1.5x
+      - iplc|广港05|1.5x
+      - iplc|广港-原生01|1.5x
+      - iplc|广港-原生02|1.5x
+      - iplc|广港-原生03|1.5x
+      - iplc|广港-原生04|1.5x
+      - iplc|广港-原生05|1.5x
+      - 中转|香港01
+      - 中转|香港02
+      - 中转|香港03
+      - 中转|香港04
+      - 中转|香港05
+      - 中转|香港-原生01
+      - 中转|香港-原生02
+      - 中转|香港-原生03
+      - 中转|香港-原生04
+      - 中转|香港-原生05
+      - Anycast|香港
+      - 福利|香港01|0.1x|限速10Mbps
+  - name: 🇨🇳 台湾节点
+    type: select
+    proxies:
+      - 动态BGP+IPLC|台湾01(原生)|2x
+      - 动态BGP+IPLC|台湾02(原生)|2x
+      - 动态BGP+IPLC|台湾03(原生)|2x
+      - 动态BGP+IPLC|台湾04(原生)|2x
+      - 动态BGP+IPLC|台湾05(原生)|2x
+      - 动态BGP+IPLC|台湾06(原生)|2x
+      - 动态BGP+IPLC|台湾07(原生)|2x
+      - 动态BGP+IPLC|台湾08(原生)|2x
+      - 动态BGP+IPLC|台湾09(原生)|2x
+      - 动态BGP+IPLC|台湾10(原生)|2x
+      - iplc|广台-原生01|1.5x
+      - iplc|广台-原生02|1.5x
+      - iplc|广台-原生03|1.5x
+      - iplc|广台-原生04|1.5x
+      - iplc|广台-原生05|1.5x
+      - iplc|广台-原生06|1.5x
+      - iplc|广台-原生07|1.5x
+      - iplc|广台-原生08|1.5x
+      - iplc|广台-原生09|1.5x
+      - iplc|广台-原生10|1.5x
+      - 中转|台湾-原生01
+      - 中转|台湾-原生02
+      - 中转|台湾-原生03
+      - 中转|台湾-原生04
+      - 中转|台湾-原生05
+      - 中转|台湾-原生06
+      - 中转|台湾-原生07
+      - 中转|台湾-原生08
+      - 中转|台湾-原生09
+      - 中转|台湾-原生10
+      - Anycast|台湾
+  - name: 🇸🇬 狮城节点
+    type: select
+    proxies:
+      - "最新网址: fastlink.cc"
+      - 动态BGP+IPLC|新加坡01(原生)|2x
+      - 动态BGP+IPLC|新加坡02(原生)|2x
+      - 动态BGP+IPLC|新加坡03(原生)|2x
+      - 动态BGP+IPLC|新加坡04(原生)|2x
+      - 动态BGP+IPLC|新加坡05(原生)|2x
+      - iplc|广新01|1.5x
+      - iplc|广新02|1.5x
+      - iplc|广新-原生01|1.5x
+      - iplc|广新-原生02|1.5x
+      - iplc|广新-原生03|1.5x
+      - 中转|新加坡01
+      - 中转|新加坡02
+      - 中转|新加坡03
+      - Anycast|新加坡
+      - 福利|新加坡|0.1x|限速10Mbps
+  - name: 🇯🇵 日本节点
+    type: select
+    proxies:
+      - 动态BGP+IPLC|日本01(原生)|2x
+      - 动态BGP+IPLC|日本02(原生)|2x
+      - 动态BGP+IPLC|日本03(原生)|2x
+      - 动态BGP+IPLC|日本04(原生)|2x
+      - 动态BGP+IPLC|日本05(原生)|2x
+      - iplc|广日01|1.5x
+      - iplc|广日02|1.5x
+      - iplc|广日-原生01|1.5x
+      - iplc|广日-原生02|1.5x
+      - iplc|广日-原生03|1.5x
+      - iplc|广日-原生04|1.5x
+      - iplc|广日-原生05|1.5x
+      - 中转|日本01
+      - 中转|日本02
+      - 中转|日本03
+      - 中转|日本04
+      - 中转|日本05
+      - Anycast|日本
+      - 福利|日本|0.1x|限速10Mbps
+  - name: 🇺🇲 美国节点
+    type: select
+    proxies:
+      - 动态BGP+IPLC|美国01(原生)|2x
+      - 动态BGP+IPLC|美国02(原生)|2x
+      - 动态BGP+IPLC|美国03(原生)|2x
+      - 动态BGP+IPLC|美国04(原生)|2x
+      - 动态BGP+IPLC|美国05(原生)|2x
+      - iplc|广美-原生01|1.5x
+      - iplc|广美-原生02|1.5x
+      - iplc|广美-原生03|1.5x
+      - iplc|广美-原生04|1.5x
+      - iplc|广美-原生05|1.5x
+      - 中转|美国01
+      - 中转|美国02
+      - 中转|美国03
+      - 中转|美国04
+      - 中转|美国05
+      - Anycast|美国
+      - 福利|美国|0.1x|限速10Mbps
+  - name: 🇬🇧 英国节点
+    type: select
+    proxies:
+      - Anycast|英国
+  - name: IPLC负载组
+    type: load-balance
+    proxies:
+      - 动态BGP+IPLC|香港01|2x
+      - 动态BGP+IPLC|香港02|2x
+      - 动态BGP+IPLC|香港03|2x
+      - 动态BGP+IPLC|香港04|2x
+      - 动态BGP+IPLC|香港05|2x
+      - 动态BGP+IPLC|香港01(原生)|2x
+      - 动态BGP+IPLC|香港02(原生)|2x
+      - 动态BGP+IPLC|香港03(原生)|2x
+      - 动态BGP+IPLC|香港04(原生)|2x
+      - 动态BGP+IPLC|香港05(原生)|2x
+      - 动态BGP+IPLC|新加坡01(原生)|2x
+      - 动态BGP+IPLC|新加坡02(原生)|2x
+      - 动态BGP+IPLC|新加坡03(原生)|2x
+      - 动态BGP+IPLC|新加坡04(原生)|2x
+      - 动态BGP+IPLC|新加坡05(原生)|2x
+      - 动态BGP+IPLC|台湾01(原生)|2x
+      - 动态BGP+IPLC|台湾02(原生)|2x
+      - 动态BGP+IPLC|台湾03(原生)|2x
+      - 动态BGP+IPLC|台湾04(原生)|2x
+      - 动态BGP+IPLC|台湾05(原生)|2x
+      - 动态BGP+IPLC|台湾06(原生)|2x
+      - 动态BGP+IPLC|台湾07(原生)|2x
+      - 动态BGP+IPLC|台湾08(原生)|2x
+      - 动态BGP+IPLC|台湾09(原生)|2x
+      - 动态BGP+IPLC|台湾10(原生)|2x
+      - 动态BGP+IPLC|日本01(原生)|2x
+      - 动态BGP+IPLC|日本02(原生)|2x
+      - 动态BGP+IPLC|日本03(原生)|2x
+      - 动态BGP+IPLC|日本04(原生)|2x
+      - 动态BGP+IPLC|日本05(原生)|2x
+      - 动态BGP+IPLC|美国01(原生)|2x
+      - 动态BGP+IPLC|美国02(原生)|2x
+      - 动态BGP+IPLC|美国03(原生)|2x
+      - 动态BGP+IPLC|美国04(原生)|2x
+      - 动态BGP+IPLC|美国05(原生)|2x
+      - iplc|广港01|1.5x
+      - iplc|广港02|1.5x
+      - iplc|广港03|1.5x
+      - iplc|广港04|1.5x
+      - iplc|广港05|1.5x
+      - iplc|广港-原生01|1.5x
+      - iplc|广港-原生02|1.5x
+      - iplc|广港-原生03|1.5x
+      - iplc|广港-原生04|1.5x
+      - iplc|广港-原生05|1.5x
+      - iplc|广新01|1.5x
+      - iplc|广新02|1.5x
+      - iplc|广新-原生01|1.5x
+      - iplc|广新-原生02|1.5x
+      - iplc|广新-原生03|1.5x
+      - iplc|广台-原生01|1.5x
+      - iplc|广台-原生02|1.5x
+      - iplc|广台-原生03|1.5x
+      - iplc|广台-原生04|1.5x
+      - iplc|广台-原生05|1.5x
+      - iplc|广台-原生06|1.5x
+      - iplc|广台-原生07|1.5x
+      - iplc|广台-原生08|1.5x
+      - iplc|广台-原生09|1.5x
+      - iplc|广台-原生10|1.5x
+      - iplc|广日01|1.5x
+      - iplc|广日02|1.5x
+      - iplc|广日-原生01|1.5x
+      - iplc|广日-原生02|1.5x
+      - iplc|广日-原生03|1.5x
+      - iplc|广日-原生04|1.5x
+      - iplc|广日-原生05|1.5x
+      - iplc|广美-原生01|1.5x
+      - iplc|广美-原生02|1.5x
+      - iplc|广美-原生03|1.5x
+      - iplc|广美-原生04|1.5x
+      - iplc|广美-原生05|1.5x
+    url: http://www.gstatic.com/generate_204
+    interval: 180
+  - name: 台湾负载组
+    type: load-balance
+    proxies:
+      - 动态BGP+IPLC|台湾01(原生)|2x
+      - 动态BGP+IPLC|台湾02(原生)|2x
+      - 动态BGP+IPLC|台湾03(原生)|2x
+      - 动态BGP+IPLC|台湾04(原生)|2x
+      - 动态BGP+IPLC|台湾05(原生)|2x
+      - 动态BGP+IPLC|台湾06(原生)|2x
+      - 动态BGP+IPLC|台湾07(原生)|2x
+      - 动态BGP+IPLC|台湾08(原生)|2x
+      - 动态BGP+IPLC|台湾09(原生)|2x
+      - 动态BGP+IPLC|台湾10(原生)|2x
+      - iplc|广台-原生01|1.5x
+      - iplc|广台-原生02|1.5x
+      - iplc|广台-原生03|1.5x
+      - iplc|广台-原生04|1.5x
+      - iplc|广台-原生05|1.5x
+      - iplc|广台-原生06|1.5x
+      - iplc|广台-原生07|1.5x
+      - iplc|广台-原生08|1.5x
+      - iplc|广台-原生09|1.5x
+      - iplc|广台-原生10|1.5x
+      - 中转|台湾-原生01
+      - 中转|台湾-原生02
+      - 中转|台湾-原生03
+      - 中转|台湾-原生04
+      - 中转|台湾-原生05
+      - 中转|台湾-原生06
+      - 中转|台湾-原生07
+      - 中转|台湾-原生08
+      - 中转|台湾-原生09
+      - 中转|台湾-原生10
+      - Anycast|台湾
+    url: http://www.gstatic.com/generate_204
+    interval: 180
+  - name: 日本负载组
+    type: load-balance
+    proxies:
+      - 动态BGP+IPLC|日本01(原生)|2x
+      - 动态BGP+IPLC|日本02(原生)|2x
+      - 动态BGP+IPLC|日本03(原生)|2x
+      - 动态BGP+IPLC|日本04(原生)|2x
+      - 动态BGP+IPLC|日本05(原生)|2x
+      - iplc|广日01|1.5x
+      - iplc|广日02|1.5x
+      - iplc|广日-原生01|1.5x
+      - iplc|广日-原生02|1.5x
+      - iplc|广日-原生03|1.5x
+      - iplc|广日-原生04|1.5x
+      - iplc|广日-原生05|1.5x
+      - 中转|日本01
+      - 中转|日本02
+      - 中转|日本03
+      - 中转|日本04
+      - 中转|日本05
+      - Anycast|日本
+      - 福利|日本|0.1x|限速10Mbps
+    url: http://www.gstatic.com/generate_204
+    interval: 180
+  - name: 香港负载组
+    type: load-balance
+    proxies:
+      - 动态BGP+IPLC|香港01|2x
+      - 动态BGP+IPLC|香港02|2x
+      - 动态BGP+IPLC|香港03|2x
+      - 动态BGP+IPLC|香港04|2x
+      - 动态BGP+IPLC|香港05|2x
+      - 动态BGP+IPLC|香港01(原生)|2x
+      - 动态BGP+IPLC|香港02(原生)|2x
+      - 动态BGP+IPLC|香港03(原生)|2x
+      - 动态BGP+IPLC|香港04(原生)|2x
+      - 动态BGP+IPLC|香港05(原生)|2x
+      - 中转|香港01
+      - 中转|香港02
+      - 中转|香港03
+      - 中转|香港04
+      - 中转|香港05
+      - 中转|香港-原生01
+      - 中转|香港-原生02
+      - 中转|香港-原生03
+      - 中转|香港-原生04
+      - 中转|香港-原生05
+      - Anycast|香港
+      - 福利|香港01|0.1x|限速10Mbps
+    url: http://www.gstatic.com/generate_204
+    interval: 180
+  - name: 新加坡负载组
+    type: load-balance
+    proxies:
+      - "最新网址: fastlink.cc"
+      - 动态BGP+IPLC|新加坡01(原生)|2x
+      - 动态BGP+IPLC|新加坡02(原生)|2x
+      - 动态BGP+IPLC|新加坡03(原生)|2x
+      - 动态BGP+IPLC|新加坡04(原生)|2x
+      - 动态BGP+IPLC|新加坡05(原生)|2x
+      - iplc|广新01|1.5x
+      - iplc|广新02|1.5x
+      - iplc|广新-原生01|1.5x
+      - iplc|广新-原生02|1.5x
+      - iplc|广新-原生03|1.5x
+      - 中转|新加坡01
+      - 中转|新加坡02
+      - 中转|新加坡03
+      - Anycast|新加坡
+      - 福利|新加坡|0.1x|限速10Mbps
+    url: http://www.gstatic.com/generate_204
+    interval: 180
+  - name: 🎥 奈飞节点
+    type: select
+    proxies:
+      - DIRECT
+      - 动态BGP+IPLC|香港01|2x
+      - 动态BGP+IPLC|香港02|2x
+      - 动态BGP+IPLC|香港03|2x
+      - 动态BGP+IPLC|香港04|2x
+      - 动态BGP+IPLC|香港05|2x
+      - 动态BGP+IPLC|香港01(原生)|2x
+      - 动态BGP+IPLC|香港02(原生)|2x
+      - 动态BGP+IPLC|香港03(原生)|2x
+      - 动态BGP+IPLC|香港04(原生)|2x
+      - 动态BGP+IPLC|香港05(原生)|2x
+      - 动态BGP+IPLC|新加坡01(原生)|2x
+      - 动态BGP+IPLC|新加坡02(原生)|2x
+      - 动态BGP+IPLC|新加坡03(原生)|2x
+      - 动态BGP+IPLC|新加坡04(原生)|2x
+      - 动态BGP+IPLC|新加坡05(原生)|2x
+      - 动态BGP+IPLC|台湾01(原生)|2x
+      - 动态BGP+IPLC|台湾02(原生)|2x
+      - 动态BGP+IPLC|台湾03(原生)|2x
+      - 动态BGP+IPLC|台湾04(原生)|2x
+      - 动态BGP+IPLC|台湾05(原生)|2x
+      - 动态BGP+IPLC|台湾06(原生)|2x
+      - 动态BGP+IPLC|台湾07(原生)|2x
+      - 动态BGP+IPLC|台湾08(原生)|2x
+      - 动态BGP+IPLC|台湾09(原生)|2x
+      - 动态BGP+IPLC|台湾10(原生)|2x
+      - 动态BGP+IPLC|日本01(原生)|2x
+      - 动态BGP+IPLC|日本02(原生)|2x
+      - 动态BGP+IPLC|日本03(原生)|2x
+      - 动态BGP+IPLC|日本04(原生)|2x
+      - 动态BGP+IPLC|日本05(原生)|2x
+      - 动态BGP+IPLC|美国01(原生)|2x
+      - 动态BGP+IPLC|美国02(原生)|2x
+      - 动态BGP+IPLC|美国03(原生)|2x
+      - 动态BGP+IPLC|美国04(原生)|2x
+      - 动态BGP+IPLC|美国05(原生)|2x
+      - iplc|广港01|1.5x
+      - iplc|广港02|1.5x
+      - iplc|广港03|1.5x
+      - iplc|广港04|1.5x
+      - iplc|广港05|1.5x
+      - iplc|广港-原生01|1.5x
+      - iplc|广港-原生02|1.5x
+      - iplc|广港-原生03|1.5x
+      - iplc|广港-原生04|1.5x
+      - iplc|广港-原生05|1.5x
+      - iplc|广新01|1.5x
+      - iplc|广新02|1.5x
+      - iplc|广新-原生01|1.5x
+      - iplc|广新-原生02|1.5x
+      - iplc|广新-原生03|1.5x
+      - iplc|广台-原生01|1.5x
+      - iplc|广台-原生02|1.5x
+      - iplc|广台-原生03|1.5x
+      - iplc|广台-原生04|1.5x
+      - iplc|广台-原生05|1.5x
+      - iplc|广台-原生06|1.5x
+      - iplc|广台-原生07|1.5x
+      - iplc|广台-原生08|1.5x
+      - iplc|广台-原生09|1.5x
+      - iplc|广台-原生10|1.5x
+      - iplc|广日01|1.5x
+      - iplc|广日02|1.5x
+      - iplc|广日-原生01|1.5x
+      - iplc|广日-原生02|1.5x
+      - iplc|广日-原生03|1.5x
+      - iplc|广日-原生04|1.5x
+      - iplc|广日-原生05|1.5x
+      - iplc|广美-原生01|1.5x
+      - iplc|广美-原生02|1.5x
+      - iplc|广美-原生03|1.5x
+      - iplc|广美-原生04|1.5x
+      - iplc|广美-原生05|1.5x
+      - 中转|香港01
+      - 中转|香港02
+      - 中转|香港03
+      - 中转|香港04
+      - 中转|香港05
+      - 中转|香港-原生01
+      - 中转|香港-原生02
+      - 中转|香港-原生03
+      - 中转|香港-原生04
+      - 中转|香港-原生05
+      - 中转|台湾-原生01
+      - 中转|台湾-原生02
+      - 中转|台湾-原生03
+      - 中转|台湾-原生04
+      - 中转|台湾-原生05
+      - 中转|台湾-原生06
+      - 中转|台湾-原生07
+      - 中转|台湾-原生08
+      - 中转|台湾-原生09
+      - 中转|台湾-原生10
+      - 中转|新加坡01
+      - 中转|新加坡02
+      - 中转|新加坡03
+      - 中转|日本01
+      - 中转|日本02
+      - 中转|日本03
+      - 中转|日本04
+      - 中转|日本05
+      - 中转|韩国01
+      - 中转|韩国02
+      - 中转|韩国03
+      - 中转|美国01
+      - 中转|美国02
+      - 中转|美国03
+      - 中转|美国04
+      - 中转|美国05
+      - 中转|加拿大01
+      - Anycast|香港
+      - Anycast|新加坡
+      - Anycast|日本
+      - Anycast|台湾
+      - Anycast|泰国
+      - Anycast|美国
+      - Anycast|英国
+      - Anycast|德国
+      - Anycast|加拿大
+      - Anycast|韩国
+      - Anycast|俄罗斯
+      - Anycast|马来西亚
+      - Anycast|印度
+      - Anycast|法国
+      - Anycast|阿根廷
+      - Anycast|巴西
+      - Anycast|土耳其
+      - Anycast|澳大利亚
+      - 福利|新加坡|0.1x|限速10Mbps
+      - 福利|香港01|0.1x|限速10Mbps
+      - 福利|日本|0.1x|限速10Mbps
+      - 福利|美国|0.1x|限速10Mbps
+rule-providers:
+  reject:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: ./ruleset/reject.yaml
+    interval: 86400
+
+  icloud:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
+    path: ./ruleset/icloud.yaml
+    interval: 86400
+
+  apple:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
+    path: ./ruleset/apple.yaml
+    interval: 86400
+
+  google:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
+    path: ./ruleset/google.yaml
+    interval: 86400
+
+  proxy:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
+    path: ./ruleset/proxy.yaml
+    interval: 86400
+
+  direct:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
+    path: ./ruleset/direct.yaml
+    interval: 86400
+
+  private:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
+    path: ./ruleset/private.yaml
+    interval: 86400
+
+  gfw:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
+    path: ./ruleset/gfw.yaml
+    interval: 86400
+
+  tld-not-cn:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
+    path: ./ruleset/tld-not-cn.yaml
+    interval: 86400
+
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
+    path: ./ruleset/telegramcidr.yaml
+    interval: 86400
+
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
+    path: ./ruleset/cncidr.yaml
+    interval: 86400
+
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    path: ./ruleset/lancidr.yaml
+    interval: 86400
+
+  applications:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
+    path: ./ruleset/applications.yaml
+    interval: 86400
+rules:
+  - RULE-SET,applications,DIRECT
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - RULE-SET,private,DIRECT
+  - RULE-SET,reject,REJECT
+  - RULE-SET,tld-not-cn,PROXY
+  - RULE-SET,gfw,PROXY
+  - RULE-SET,telegramcidr,PROXY
+  - MATCH,DIRECT
